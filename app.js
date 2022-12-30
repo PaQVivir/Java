@@ -15,7 +15,7 @@ var descuento = PFApagar*0.85
 
 let pagoEfectivo = prompt("abona en efectivo? ")
 
-if (pagoEfectivo ="si,Si,SI,sI") {
+if (pagoEfectivo ==="si" || pagoEfectivo === "Si" || pagoEfectivo === "SI" || pagoEfectivo === "sI") {
     alert("ha obtenido un descuento del 15% su monto a abonar es: " + descuento, );    
 } else {
     alert("su monto a abonar es: " + PFApagar, )
